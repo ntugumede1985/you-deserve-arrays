@@ -7,7 +7,7 @@ function getLastItemFrom(itemList) {
 }
 
 function getIndex3(itemList) {
-  return itemList.slice(3, )
+  return itemList.slice().pop();
 }
 
 function firstItemIsNumber() {
