@@ -1,13 +1,13 @@
-function getFirstItemFrom() {
-
+function getFirstItemFrom(itemList) {
+  return itemList.shift();
 }
 
-function getLastItemFrom() {
-
+function getLastItemFrom(itemList) {
+  return itemList.pop();
 }
 
-function getIndex3() {
-
+function getIndex3(itemList) {
+  return itemList.slice(3, )
 }
 
 function firstItemIsNumber() {
